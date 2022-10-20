@@ -11,16 +11,16 @@ $(document).ready(function() {
 	//URL and name
 	var urls = [{
 		name: 'Website',
-		url: 'https://horefice.github.io'},
+		url: 'https://mc4u.xyz'},
 	{
-		name: 'Resume',
-		url: 'https://horefice.github.io/docs/HOreficeResume.pdf'},
+		name: 'Dashboard',
+		url: 'https://portal.mc4u.xyz'},
 	{
-		name: 'Blog',
-		url: 'https://horefice.github.io/blog'},
+		name: 'Game-Panel',
+		url: 'https://panel.mc4u.xyz'},
 	{
-		name: 'RPI',
-		url: 'https://horefice.github.io/rpi'}
+		name: 'Nodes & Backend',
+		url: 'https://gg.mc4u.xyz'}
 	];
 	$(urls).each(function(index,item){
 		$('#status .current-status').append('<li class="'+'current-status-'+item.name+'">'+item.name+'</li>')
